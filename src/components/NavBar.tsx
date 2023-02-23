@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {FaBars, FaTimes} from 'react-icons/fa'
 
-const NavBar = () => {
+const NavBar = () :JSX.Element => {
 
     const [nav, setNav] = useState(false)
 
