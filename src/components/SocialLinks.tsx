@@ -1,6 +1,6 @@
 import React from 'react';
 const { HiOutlineMail } = require('react-icons/hi');
-const { BsFillPersonLinesFill, BsLinkedin, BsGithub  } = require('react-icons/bs');
+const { BsPersonSquare, BsLinkedin, BsGithub  } = require('react-icons/bs');
 
 
 const SocialLinks = () => {
@@ -9,7 +9,8 @@ const SocialLinks = () => {
         id: number,
         child: JSX.Element,
         href: string,
-        style: string
+        style: string,
+        download: boolean
     }
 
     const Links2: Links[] = [
@@ -21,7 +22,8 @@ const SocialLinks = () => {
                 </>
             ),
             href: "https://www.linkedin.com/in/daniel-martinez-cabrera-0b6294109/",
-            style: "rounded-tr-md"
+            style: "rounded-tr-md",
+            download: false
         },
         {
             id: 2,
@@ -31,7 +33,8 @@ const SocialLinks = () => {
                 </>
             ),
             href: "https://github.com/dmc2m4",
-            style: ""
+            style: "",
+            download: false
         },
         {
             id: 3,
@@ -41,31 +44,32 @@ const SocialLinks = () => {
                 </>
             ),
             href: "mailto:danielmartinezcabrera@hotmail.com",
-            style: "rounded-tr-md"
+            style: "",
+            download: false
         },
         {
             id: 4,
             child: (
                 <>
-                GitHub <BsGithub size={35}/>
+                Resume <BsPersonSquare size={35}/>
                 </>
             ),
-            href: "https://github.com/dmc2m4",
-            style: "rounded-tr-md"
+            href: "/Daniel Martínez CV (EN).pdf",
+            style: "rounded-br-md",
+            download: true
         }
     ]
 
     return (
         <div className='flex flex-col top-[35%] left-0 fixed'>
             <ul>
-                <li className='flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md bg-gray-500 duration-300'>
-                    <a href="" className='flex justify-between items-center text-white w-full'>
-                        {""}
-                        <>
-                            LinkedIn <BsLinkedin size={35}/>
-                        </>
-                    </a>
-                </li>
+                {Links2.map(l => (
+                    <li key={l.id} className={'flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md bg-gray-500 duration-300' + " " + l.style}>
+                        <a href={l.href} className='flex justify-between items-center text-white w-full' download={l.download}>
+                            {l.child}
+                        </a>
+                    </li>
+                ))}
             </ul>
         </div>
     )
