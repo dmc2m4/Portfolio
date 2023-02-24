@@ -18,7 +18,7 @@ const SocialLinks = () => {
             id: 1,
             child: (
                 <>
-                Linkedin <BsLinkedin size={35}/>
+                Linkedin <BsLinkedin size={30}/>
                 </>
             ),
             href: "https://www.linkedin.com/in/daniel-martinez-cabrera-0b6294109/",
@@ -29,7 +29,7 @@ const SocialLinks = () => {
             id: 2,
             child: (
                 <>
-                GitHub <BsGithub size={35}/>
+                GitHub <BsGithub size={30}/>
                 </>
             ),
             href: "https://github.com/dmc2m4",
@@ -40,7 +40,7 @@ const SocialLinks = () => {
             id: 3,
             child: (
                 <>
-                Mail <HiOutlineMail size={35}/>
+                Mail <HiOutlineMail size={30}/>
                 </>
             ),
             href: "mailto:danielmartinezcabrera@hotmail.com",
@@ -51,7 +51,7 @@ const SocialLinks = () => {
             id: 4,
             child: (
                 <>
-                Resume <BsPersonSquare size={35}/>
+                Resume <BsPersonSquare size={30}/>
                 </>
             ),
             href: "/Daniel Martínez CV (EN).pdf",
