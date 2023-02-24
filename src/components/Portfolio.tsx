@@ -3,7 +3,7 @@ const countries = require('../assets/travel.jpg')
 
 const Portfolio = () => {
     return (
-        <div className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen">
+        <div className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen" id="portfolio">
             <div className="max-w-screen-lg pb-12 md:pb-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
                     <p className="text-4xl font-bold inline border-b-4 border-gray-500">Portfolio</p>

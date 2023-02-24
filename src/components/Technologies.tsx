@@ -1,4 +1,3 @@
-import React from 'react';
 const reactImage = require('../assets/React.png');
 const javaScript = require('../assets/JavaScript.png');
 const mongo = require('../assets/Mongodb.png');
@@ -77,7 +76,7 @@ const Technologies = () => {
     ]
 
     return (
-        <div className='bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-12 md:pt-0 '>
+        <div className='bg-gradient-to-b from-gray-800 to-black w-full h-screen pt-12 md:pt-0' id="technologies">
             <div className='max-w-screen-lg my-auto mx-auto flex flex-col justify-center w-full h-full text-white pt-14 md:pt-0'>
                 <div className='pt-24 md:pt-0'>
                     <p className='text-4xl font-bold -border-b-4 border-gray-500 p-2 inline'>Technologies</p>
