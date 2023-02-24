@@ -1,5 +1,6 @@
 const picture = require("../assets/Daniel.jpg")
 const { MdArrowRightAlt } = require("react-icons/md")
+const {Link} = require('react-scroll')
 
 
 const Home = () => {
@@ -13,12 +14,12 @@ const Home = () => {
                         Skilled and passionate with highly capacity of learning, and teamwork. A dedicated leader with the ability of develop strategies for minimizing problems under pressure. Bilingual, hardworking with positive attitude and the willingness and motivation to learn new programs.
                     </p>
                     <div>
-                        <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                        <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
                             Porfolio
                             <span className='group-hover:rotate-90 duration-300'>
                                 <MdArrowRightAlt size={25} className="ml-2"/>
                             </span>
-                        </button>
+                        </Link>
                     </div>
                 </div>
                 <div>
