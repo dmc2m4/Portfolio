@@ -8,19 +8,19 @@ const About = () => {
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
                 </div>
                 <p className='text-l mt-8 sm:text-xl'>
-                Full Stack Developer con experiencia en tecnologoías como JavaScript, React JS, Node JS, Express JS y PostgresSQL. Estoy interesado en seguir aprendiendo más sobre nuevas tecnologías y adquirir habilidades que me conviertan no solo en un mejor profesional sino también en una mejor persona.
+                Full Stack Developer with experience in technologies such as JavaScript, React JS, Node JS, Express JS and PostgresSQL. I’m interested in continuing learning new technologies and obtain skills that make me not only a better professional but also a better person.
                 </p>
                 <br/>
                 <p className='text-l sm:text-xl'>
-                Mis principales habilidades son la capacidad de analisis y solución de problemas, disposición de trabajo en equipo y capacidad de aprendizaje.
+                My main skills are the ability to analyze and solve problems, willingness to work in team and to learn.
                 </p>
                 <br/>
                 <p className='text-l sm:text-xl'>
-                He realizado dos proyectos como programador en los cuales he utilizado las tecnologías enumeradas anteriormente, adicional a esto he desarrollado habilidades personales como el liderazgo, trabajo en equipo y adaptabilidad.
+                I have developed two projects as a programmer in which I used technologies listed before, and thanks to this I have developed personal skills such as leadership, teamwork and adaptability.
                 </p>
                 <br/>
                 <p className='text-l mb-10 sm:text-xl'>
-                Soy ingeniero mecánico graduado de la Univerisdad Del Norte, desde entonces he adquirido experiencia laboral en empresas como CocaCola FEMSA en el area de mantenimiento, también he trabajado como independiente en otros sectores como la inversión en mercados bursatiles, cargos administrativos y logistica de eventos masivos.
+                I am a mechanical engineer graduate from Universidad del Norte. Since then I have gained work experience in companies such as CocaCola FEMSA in maintenance area, also worked as freelancer in sectors such as stock market, administrative positions and logistics of mass events.
                 </p>
             </div>
         </div>
