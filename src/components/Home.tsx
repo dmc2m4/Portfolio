@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
             <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-                <div className='flex flex-col justify-center h-full'>
+                <div className='flex flex-col justify-center h-18 mb-10'>
                     <h2 className='text-3xl pt-12 mt-2 sm:text-5xl sm:pt-12 sm:mt-7 font-bold text-white'>I'm a full stack developer</h2>
                     <p className='text-gray-500 py-4 max-w-md'>
                         Skilled and passionate with highly capacity of learning, and teamwork. A dedicated leader with the ability of develop strategies for minimizing problems under pressure. Bilingual, hardworking with positive attitude and the willingness and motivation to learn new programs.
