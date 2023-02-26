@@ -13,7 +13,7 @@ const Technologies = () => {
 
     type Tech = {
         id: number,
-        image: any,
+        image: string,
         name: string,
         style: string
     }
