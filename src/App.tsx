@@ -17,7 +17,6 @@ function App(): JSX.Element {
       <Portfolio/>
       <Technologies/>
       <Contact/>
-
       <SocialLinks/>
     </div>
   );

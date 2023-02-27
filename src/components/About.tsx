@@ -1,12 +1,12 @@
 const About = () => {
 
     return (
-        <div className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white' id="about">
-            <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-                <div className='pb-8'>
+        <div className='w-full h-auto bg-gradient-to-b from-gray-800 to-black text-white sm:h-screen' id="about">
+            <div className='max-w-screen-lg px-4 mx-auto flex flex-col justify-center w-full h-full'>
+                <div className='pb-8 pt-12 sm:pt-0'>
                     <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
                 </div>
-                <p className='text-l sm:text-xl'>
+                <p className='text-l mt- sm:text-xl'>
                 Full Stack Developer with experience in technologies such as JavaScript, React JS, Node JS, Express JS and PostgresSQL. I’m interested in continuing learning new technologies and obtain skills that make me not only a better professional but also a better person.
                 </p>
                 <br/>
