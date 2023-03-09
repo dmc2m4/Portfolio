@@ -38,7 +38,7 @@ const NavBar = (): JSX.Element => {
     return (
         <div className="flex justify-between items-center w-full h-20 px-4 text-white  bg-black fixed">
             <div>
-                <h1 className="text-4xl md:text-5xl font-signature nl-2">Daniel Martínez</h1>
+                <h1 className="text-4xl md:text-5xl font-semibold nl-2">Daniel Martínez</h1>
             </div>
             <ul className="hidden md:flex">
                 {Links2.map(l => (
