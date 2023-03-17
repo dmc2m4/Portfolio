@@ -11,15 +11,15 @@ const About = () => {
                 </p>
                 <br/>
                 <p className='text-m sm:text-xl'>
-                My main skills are the ability to analyze and solve problems, willingness to work in team and to learn.
+                I have completed individual projects where I have developed my ability to learn autonomously, discipline, and resilience.
                 </p>
                 <br/>
                 <p className='text-m sm:text-xl'>
-                I have developed two projects as a programmer in which I used technologies listed before, and thanks to this I have developed personal skills such as leadership, teamwork and adaptability.
+                I have also had the opportunity to work on group projects with agile methodologies (SCRUM) where I grew in skills such as teamwork, decision-making, code review, and leadership
                 </p>
                 <br/>
                 <p className='text-m mb-10 sm:text-xl'>
-                I am a mechanical engineer graduate from Universidad del Norte. Since then I have gained work experience in companies such as CocaCola FEMSA in maintenance area, also worked as freelancer in sectors such as stock market, administrative positions and logistics of mass events.
+                I am very passionate about the world of technology and would like to continue learning and growing in positions related to my profile in order to contribute to projects with high social and/or economic impact.
                 </p>
             </div>
         </div>
