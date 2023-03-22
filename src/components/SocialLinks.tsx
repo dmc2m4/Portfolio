@@ -21,7 +21,7 @@ const SocialLinks = () => {
                 Linkedin <BsLinkedin size={30}/>
                 </>
             ),
-            href: "https://www.linkedin.com/in/daniel-martinez-cabrera-0b6294109/",
+            href: "https://www.linkedin.com/in/daniel-martinez-0b6294109/",
             style: "rounded-tr-md",
             download: false
         },
