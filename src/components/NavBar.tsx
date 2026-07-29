@@ -1,66 +1,89 @@
 import { useState } from "react";
-import { FaBars, FaTimes } from 'react-icons/fa'
-const { Link } = require('react-scroll');
+import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
-const NavBar = (): JSX.Element => {
+const links = [
+  { id: 1, label: "Home", to: "home" },
+  { id: 2, label: "About", to: "about" },
+  { id: 3, label: "Projects", to: "projects" },
+  { id: 4, label: "Contact", to: "contact" },
+];
 
-    const [nav, setNav] = useState(false)
+const NavBar = () => {
+  const [navOpen, setNavOpen] = useState(false);
 
-    type links = {
-        id: number,
-        link: string
-    }
+  return (
+    <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-[#10131a]/80 border-b border-[#32353c]">
+      <div className="max-w-7xl mx-auto h-16 px-6 flex items-center justify-between">
+        {/* Logo */}
+        <h1 className="text-white font-bold tracking-tight text-lg md:text-xl">
+          DANIEL<span className="text-[#adc6ff]">_</span>MARTINEZ
+        </h1>
 
-    const Links2: Array<links> = [
-        {
-            id: 1,
-            link: "home"
-        },
-        {
-            id: 2,
-            link: "about"
-        },
-        {
-            id: 3,
-            link: "portfolio"
-        },
-        {
-            id: 4,
-            link: "technologies"
-        },
-        {
-            id: 5,
-            link: "contact"
-        },
-    ]
+        {/* Desktop */}
+        <nav className="hidden md:flex items-center gap-8">
+          {links.map((item) => (
+            <Link
+              key={item.id}
+              to={item.to}
+              smooth
+              duration={500}
+              spy
+              offset={-70}
+              activeClass="text-[#adc6ff] border-b border-[#adc6ff]"
+              className="cursor-pointer text-sm font-medium text-gray-400 hover:text-white transition-all pb-1"
+            >
+              {item.label}
+            </Link>
+          ))}
 
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="ml-3 px-5 py-2 text-sm font-semibold bg-[#adc6ff] text-[#10131a] hover:opacity-90 transition"
+          >
+            Resume
+          </a>
+        </nav>
 
-    return (
-        <div className="flex justify-between items-center w-full h-20 px-4 text-white  bg-black fixed">
-            <div>
-                <h1 className="text-4xl md:text-5xl font-semibold nl-2">Daniel Martínez</h1>
-            </div>
-            <ul className="hidden md:flex">
-                {Links2.map(l => (
-                    <li className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200" key={l.id}><Link to={l.link} smooth duration={500}>{l.link}</Link>
-                    </li>
-                ))}
-            </ul>
-            <div onClick={() => setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">
-                {nav ? <FaTimes size={30} /> : <FaBars size={30} />}
-            </div>
+        {/* Mobile Icon */}
+        <button
+          onClick={() => setNavOpen(!navOpen)}
+          className="md:hidden text-gray-300"
+        >
+          {navOpen ? <FaTimes size={22} /> : <FaBars size={22} />}
+        </button>
+      </div>
 
-            {nav && (
-                <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
-                    {Links2.map(l => (
-                        <li className="px-4 cursor-pointer capitalize py-6 text-4xl" key={l.id}>
-                            <Link to={l.link} smooth duration={500}>{l.link}</Link></li>
-                    ))}
-                </ul>
-            )}
+      {/* Mobile Menu */}
+      {navOpen && (
+        <div className="md:hidden border-t border-[#32353c] bg-[#10131a]">
+          <div className="flex flex-col py-6">
+            {links.map((item) => (
+              <Link
+                key={item.id}
+                to={item.to}
+                smooth
+                duration={500}
+                onClick={() => setNavOpen(false)}
+                className="px-6 py-4 text-gray-300 hover:text-[#adc6ff] cursor-pointer"
+              >
+                {item.label}
+              </Link>
+            ))}
 
+            <a
+              href="/resume.pdf"
+              className="mx-6 mt-4 py-3 text-center bg-[#adc6ff] text-[#10131a] font-semibold"
+            >
+              Resume
+            </a>
+          </div>
         </div>
-    )
-}
+      )}
+    </header>
+  );
+};
 
 export default NavBar;
