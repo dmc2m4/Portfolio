@@ -21,7 +21,7 @@ export const projects: Project[] = [
             "Hunter.io",
             "PostgreSQL",
         ],
-        url: "https://comarketing.com",
+        url: "https://app.comarketing.com/dashboard/partner-finder",
     },
 
     {
@@ -41,7 +41,7 @@ export const projects: Project[] = [
             "PostgreSQL",
             "REST API",
         ],
-        url: "https://comarketing.com",
+        url: "https://app.comarketing.com/estimator",
     },
 
     {
@@ -61,7 +61,7 @@ export const projects: Project[] = [
             "PostgreSQL",
             "REST API",
         ],
-        url: "https://comarketing.com",
+        url: "https://app.comarketing.com/pricing",
     },
 
     {
@@ -81,7 +81,7 @@ export const projects: Project[] = [
             "PostgreSQL",
             "REST API",
         ],
-        url: "https://comarketing.com",
+        url: "https://app.comarketing.com/login",
     },
 
     {
@@ -101,7 +101,7 @@ export const projects: Project[] = [
             "PostgreSQL",
             "REST API",
         ],
-        url: "https://comarketing.com",
+        url: "https://app.comarketing.com/admin",
     },
 
     {
