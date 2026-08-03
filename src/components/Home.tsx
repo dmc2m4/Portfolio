@@ -109,10 +109,12 @@ const Home = () => {
 
             <div className="absolute bottom-5 -right-8 border border-[#32353c] bg-[#1d2027] px-5 py-3">
               <p className="text-[#adc6ff] text-xs uppercase tracking-widest">
-                Active Projects
+                3+ YEARS
               </p>
 
-              <h3 className="text-white text-xl font-bold mt-1">SaaS</h3>
+              <h3 className="text-white text-xl font-bold mt-1">
+                BUILDING SAAS
+              </h3>
             </div>
           </div>
         </div>

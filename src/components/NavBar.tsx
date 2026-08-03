@@ -6,7 +6,7 @@ const links = [
   { id: 1, label: "Home", to: "home" },
   { id: 2, label: "About", to: "about" },
   { id: 3, label: "Projects", to: "projects" },
-  { id: 4, label: "Contact", to: "contact" },
+  { id: 4, label: "Contact", to: "portfolio" },
 ];
 
 const NavBar = () => {
@@ -38,9 +38,10 @@ const NavBar = () => {
           ))}
 
           <a
-            href="/resume.pdf"
+            href="/resume/Daniel_Martinez_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
+            download
             className="ml-3 px-5 py-2 text-sm font-semibold bg-[#adc6ff] text-[#10131a] hover:opacity-90 transition"
           >
             Resume
@@ -74,7 +75,10 @@ const NavBar = () => {
             ))}
 
             <a
-              href="/resume.pdf"
+              href="/resume/Daniel_Martinez_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download
               className="mx-6 mt-4 py-3 text-center bg-[#adc6ff] text-[#10131a] font-semibold"
             >
               Resume

@@ -54,7 +54,7 @@ const SocialLinks = () => {
                 Resume <BsPersonSquare size={30}/>
                 </>
             ),
-            href: "/Daniel Martínez CV (EN).pdf",
+            href: "/resume/Daniel_Martinez_CV.pdf",
             style: "rounded-br-md",
             download: true
         }

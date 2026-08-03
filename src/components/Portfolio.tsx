@@ -1,35 +1,61 @@
-const vibe = require('../assets/vibe.png')
-const countries = require('../assets/travel.jpg')
+import { Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+import ProjectCard from "./ProjectCard";
+import { projects } from "../constants/projects";
 
 const Portfolio = () => {
-    return (
-        <div className="bg-gradient-to-b from-black to-gray-800 w-full text-white h-auto sm:h-screen" id="portfolio">
-            <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-                <div className="pb-8">
-                    <p className="text-4xl font-bold inline border-b-4 border-gray-500">Portfolio</p>
-                    <p className="py-6">Check out my work right here</p>
-                </div>
-                <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-8 px-12 sm:px-0">
-                    <div className="shadow-md shadow-gray-600 rounded-lg mb-12">
-                        <a href="https://proyecto-final-vibes.vercel.app/" target='_blank' rel="noreferrer">
-                        <img src ={vibe} alt="img" className="rounded-md h-full duration-200 hover:scale-105" />
-                        </a>
-                        <div>
-                            <h3 className="flex justify-center text-xl p-2 md:text-2xl">E-Commerce</h3>
-                        </div>
-                    </div>
-                    <div className="shadow-md shadow-gray-600 rounded-lg mb-12">
-                        <a href="https://daniel-martinez-countries.netlify.app/" target='_blank' rel="noreferrer">
-                        <img src ={countries} alt="img" className="rounded-md h-full duration-200 hover:scale-105" />
-                        </a>
-                        <div>
-                        <h3  className="flex justify-center text-xl md:text-2xl p-2">Countries</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
-}
+  return (
+    <section id="projects" className="bg-[#10131a] py-20">
+      <div className="max-w-7xl mx-auto px-6">
+        {/* Header */}
 
-export default Portfolio
+        <div className="flex justify-between items-end mb-14">
+          <div>
+            <p className="text-[#adc6ff] uppercase tracking-[0.3em] text-sm mb-2">
+              Featured Work
+            </p>
+
+            <h2 className="text-4xl md:text-5xl font-bold text-white">
+              Selected Projects
+            </h2>
+          </div>
+
+          <p className="hidden lg:block text-gray-500">
+            Professional projects built for real businesses
+          </p>
+        </div>
+
+        <Swiper
+          modules={[Navigation, Pagination]}
+          navigation
+          pagination={{ clickable: true }}
+          spaceBetween={24}
+          breakpoints={{
+            0: {
+              slidesPerView: 1,
+            },
+            768: {
+              slidesPerView: 2,
+            },
+            1280: {
+              slidesPerView: 3,
+            },
+          }}
+        >
+          {projects.map((project) => (
+            <SwiperSlide key={project.title} className="pb-14">
+              <ProjectCard project={project} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
+    </section>
+  );
+};
+
+export default Portfolio;

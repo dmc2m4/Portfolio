@@ -1,0 +1,168 @@
+import { Project } from "../types/project";
+
+export const projects: Project[] = [
+    {
+        id: "1",
+        headline:
+            "AI-powered lead generation and business partner discovery platform.",
+        title: "AI-Powered Partner Finder & Lead Generation",
+        category: "Artificial Intelligence",
+        description:
+            "Built an AI-powered platform that discovers qualified business partners using Google Places, Hunter.io, OpenAI, and Vapi. Automated lead enrichment, personalized outreach, AI voice calls, SMS, and email workflows, significantly reducing manual prospecting while increasing lead generation efficiency.",
+        media: [],
+        thumbnail: "/images/Thumbnail1.png",
+        technologies: [
+            "Next.js",
+            "TypeScript",
+            "OpenAI",
+            "Vapi",
+            "Twilio",
+            "Google Places API",
+            "Hunter.io",
+            "PostgreSQL",
+        ],
+        url: "https://comarketing.com",
+    },
+
+    {
+        id: "2",
+        headline:
+            "AI-powered document analysis and repair cost estimation platform.",
+        title: "AI Property Inspection & Repair Cost Estimator",
+        category: "Artificial Intelligence",
+        description:
+            "Developed an AI-powered estimator that analyzes home inspection reports and property photos to identify repair items, estimate costs, and generate actionable reports. Integrated AI workflows that transform inspection data into qualified business opportunities through automated partner matching and lead generation.",
+        media: [],
+        thumbnail: "/images/Thumbnail2.png",
+        technologies: [
+            "Next.js",
+            "TypeScript",
+            "OpenAI",
+            "PostgreSQL",
+            "REST API",
+        ],
+        url: "https://comarketing.com",
+    },
+
+    {
+        id: "3",
+        headline:
+            "Flexible subscription, billing, and credit-based payment infrastructure.",
+        title: "Subscription & Billing System for SaaS Platform",
+        category: "FinTech",
+        description:
+            "Designed and implemented a complete billing infrastructure for a B2B SaaS platform using Stripe. Built subscription management, webhook processing, recurring payments, invoices, and a flexible credit-based system that allows customers to purchase and consume platform credits based on feature usage.",
+        media: [],
+        thumbnail: "/images/Thumbnail3.png",
+        technologies: [
+            "Next.js",
+            "TypeScript",
+            "Stripe",
+            "PostgreSQL",
+            "REST API",
+        ],
+        url: "https://comarketing.com",
+    },
+
+    {
+        id: "4",
+        headline:
+            "Core web application for a multi-tenant B2B referral marketing platform.",
+        title: "B2B SaaS Dashboard for Partnership & Lead Management",
+        category: "SaaS Platform",
+        description:
+            "Developed the core application of a B2B SaaS platform that helps businesses build strategic partnerships and generate qualified referrals. Designed dashboards for both Comarketing and Earn Mode, enabling users to manage leads, partnerships, invitations, agreements, analytics, and account settings through a responsive and scalable interface.",
+        media: [],
+        thumbnail: "images/Thumbnail4.png",
+        technologies: [
+            "Next.js",
+            "TypeScript",
+            "Prisma",
+            "PostgreSQL",
+            "REST API",
+        ],
+        url: "https://comarketing.com",
+    },
+
+    {
+        id: "5",
+        headline:
+            "Centralized administration platform for managing thousands of SaaS users.",
+        title: "Admin Portal for SaaS Operations Management",
+        category: "Admin Dashboard",
+        description:
+            "Built a comprehensive administration portal to manage users, organizations, leads, agreements, invitations, referrals, and platform operations. Implemented advanced filtering, interactive maps, analytics dashboards, CSV exports, and internal management tools that streamline daily operations for administrators.",
+        media: [],
+        thumbnail: "images/Thumbnail5.png",
+        technologies: [
+            "Next.js",
+            "TypeScript",
+            "React",
+            "PostgreSQL",
+            "REST API",
+        ],
+        url: "https://comarketing.com",
+    },
+
+    {
+        id: "6",
+        headline:
+            "Unified platform for creating and optimizing digital advertising campaigns.",
+        title: "Digital Advertising Management Platform",
+        category: "Marketing Technology",
+        description:
+            "Developed a centralized platform that enables businesses to create, manage, and optimize Google Ads and Meta Ads campaigns from a single dashboard. Implemented campaign automation, audience management, lead tracking, analytics, and advertising workflows to simplify campaign creation and improve marketing performance.",
+        media: [],
+        thumbnail: "images/Thumbnail6.png",
+        technologies: [
+            "Next.js",
+            "TypeScript",
+            "PostgreSQL",
+            "Google Ads API",
+            "Meta Ads API",
+            "Zapier",
+        ],
+        url: "https://usewitly.com",
+    },
+
+    {
+        id: "7",
+        headline:
+            "High-converting marketing website for a modern B2B SaaS platform.",
+        title: "Comarketing Landing Page",
+        category: "Marketing Website",
+        description:
+            "Built and maintained the public-facing website for Comarketing, including responsive landing pages, pricing sections, lead generation forms, SEO optimization, case studies, and interactive components. Focused on performance, accessibility, and conversion optimization to maximize customer acquisition.",
+        media: [],
+        thumbnail: "images/Thumbnail7.png",
+        technologies: [
+            "Next.js",
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "Vercel",
+        ],
+        url: "https://comarketing.com",
+    },
+
+    {
+        id: "8",
+        headline:
+            "Online learning platform with enrollment and secure payment processing.",
+        title: "Training & Course Enrollment Platform",
+        category: "Education",
+        description:
+            "Developed a course enrollment platform for the Cámara de Comercio de Barranquilla. Built the frontend with React and developed REST APIs using NestJS, enabling users to browse training programs, enroll in courses, complete secure online payments through PayU, and manage their learning experience.",
+        media: [],
+        thumbnail: "images/Thumbnail8.png",
+        technologies: [
+            "React",
+            "NestJS",
+            "TypeScript",
+            "PayU",
+            "REST API",
+            "PostgreSQL",
+        ],
+        url: "https://www.camarabaq.org.co/portafolio-camarabaq",
+    },
+];
