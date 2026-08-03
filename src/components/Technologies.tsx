@@ -1,99 +1,49 @@
-const reactImage = require('../assets/React.png');
-const javaScript = require('../assets/JavaScript.png');
-const mongo = require('../assets/Mongodb.png');
-const typeScript = require('../assets/TypeScript.png');
-const postgres = require('../assets/Postgres.png');
-const node = require('../assets/Node.png');
-const sequilizeImg = require('../assets/sequelize.png');
-const mongoose = require('../assets/mongoose.png');
-const css = require('../assets/CSS.png');
-
+import { technologies } from "../constants/technologies";
 
 const Technologies = () => {
+  return (
+    <section id="technologies" className="py-14 bg-[#10131a]">
+      <div className="max-w-7xl mx-auto px-6">
+        <span className="uppercase tracking-[0.25em] text-[11px] text-[#adc6ff]">
+          Tech Stack
+        </span>
 
-    type Tech = {
-        id: number,
-        image: string,
-        name: string,
-        style: string
-    }
+        <h2 className="mt-3 text-5xl font-bold text-white">
+          Technologies I work with
+        </h2>
 
-    const technologies2: Tech[] = [
-        {
-            id: 1,
-            image: javaScript,
-            name: "JavaScript",
-            style: "shadow-yellow-400",
-        },
-        {
-            id: 2,
-            image: reactImage,
-            name: "React",
-            style: "shadow-blue-400",
-        },
-        {
-            id: 3,
-            image: node,
-            name: "Node JS",
-            style: "shadow-green-400",
-        },
-        {
-            id: 4,
-            image: typeScript,
-            name: "TypeScript",
-            style: "shadow-blue-400",
-        },
-        {
-            id: 5,
-            image: postgres,
-            name: "PostgresSQL",
-            style: "shadow-blue-400",
-        },
-        {
-            id: 6,
-            image: mongo,
-            name: "MongoDB",
-            style: "shadow-green-400",
-        },
-        {
-            id: 7,
-            image: sequilizeImg,
-            name: "Sequelize",
-            style: "shadow-blue-400",
-        },
-        {
-            id: 8,
-            image: mongoose,
-            name: "Mongoose",
-            style: "shadow-orange-400",
-        },
-        {
-            id: 9,
-            image: css,
-            name: "CSS",
-            style: "shadow-blue-400",
-        }
-    ]
+        <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-400">
+          Throughout my career I've built scalable SaaS products, AI-powered
+          applications and business automation platforms using modern web
+          technologies and cloud services.
+        </p>
 
-    return (
-        <div className='bg-gradient-to-b from-gray-800 to-black w-full h-auto sm:h-screen' id="technologies">
-            <div className='max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full text-white p-4'>
-                <div>
-                    <p className='text-4xl font-bold -border-b-4 border-gray-500 p-2 inline'>Technologies</p>
-                    <p className='py-6'>These are the technologies i've worked with:</p>
-                </div>
-                <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0'>
-                    {technologies2.map(t => (
-                    <div key={t.id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${t.style}`}>
-                        <img src={t.image} alt="" className='w-20 mx-auto' />
-                        <p className='mt-4'>{t.name}</p>
-                    </div>
-                    ))}
-                </div>
+        <div className="grid lg:grid-cols-2 gap-6 mt-14">
+          {technologies.map((category) => (
+            <div
+              key={category.title}
+              className="border border-[#32353c] bg-[#1d2027] p-7 transition-all hover:border-[#adc6ff]"
+            >
+              <h3 className="text-xl font-semibold text-white mb-6">
+                {category.title}
+              </h3>
+
+              <div className="flex flex-wrap gap-3">
+                {category.items.map((tech) => (
+                  <span
+                    key={tech}
+                    className="px-3 py-2 border border-[#32353c] bg-[#10131a] text-xs uppercase tracking-wider text-[#adc6ff]"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </div>
-
+          ))}
         </div>
-    )
-}
+      </div>
+    </section>
+  );
+};
 
-export default Technologies
+export default Technologies;
