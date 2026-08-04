@@ -99,7 +99,7 @@ const Home = () => {
 
             <div className="w-[320px] h-[420px] overflow-hidden border border-[#32353c] bg-[#1d2027]">
               <img
-                src="/images/daniel.jpg"
+                src="/images/Daniel2.jpeg"
                 alt="Daniel Martinez"
                 className="w-full h-full object-cover object-top grayscale hover:grayscale-0 transition-all duration-700"
               />
