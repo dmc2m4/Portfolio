@@ -113,7 +113,7 @@ const Home = () => {
               </p>
 
               <h3 className="text-white text-xl font-bold mt-1">
-                BUILDING SAAS
+                BUILDING APPS
               </h3>
             </div>
           </div>
