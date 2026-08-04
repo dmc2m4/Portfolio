@@ -10,7 +10,7 @@ import { projects } from "../constants/projects";
 
 const Portfolio = () => {
   return (
-    <section id="projects" className="bg-[#10131a] py-20">
+    <section id="projects" className="bg-[#10131a] py-16">
       <div className="max-w-7xl mx-auto px-6">
         {/* Header */}
 

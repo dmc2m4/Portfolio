@@ -2,7 +2,7 @@ import { technologies } from "../constants/technologies";
 
 const Technologies = () => {
   return (
-    <section id="technologies" className="py-14 bg-[#10131a]">
+    <section id="technologies" className="pb-14 bg-[#10131a]">
       <div className="max-w-7xl mx-auto px-6">
         <span className="uppercase tracking-[0.25em] text-[11px] text-[#adc6ff]">
           Tech Stack

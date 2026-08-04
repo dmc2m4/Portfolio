@@ -6,8 +6,6 @@ import Portfolio from "./components/Portfolio";
 import SocialLinks from "./components/SocialLinks";
 import Technologies from "./components/Technologies";
 
-
-
 function App(): JSX.Element {
   return (
     <div>

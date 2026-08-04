@@ -6,7 +6,7 @@ const links = [
   { id: 1, label: "Home", to: "home" },
   { id: 2, label: "About", to: "about" },
   { id: 3, label: "Projects", to: "projects" },
-  { id: 4, label: "Contact", to: "portfolio" },
+  { id: 4, label: "Contact", to: "contact" },
 ];
 
 const NavBar = () => {
