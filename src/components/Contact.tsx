@@ -1,25 +1,111 @@
+const Contact = () => {
+  return (
+    <section id="contact" className="py-28 bg-[#10131a]">
+      <div className="max-w-7xl mx-auto px-6">
+        {/* Header */}
 
+        <div className="mb-16">
+          <div className="flex items-center gap-3 mb-3">
+            <div className="w-12 h-px bg-[#adc6ff]" />
 
-const Contact = () => { 
+            <span className="uppercase tracking-[0.25em] text-[11px] text-lime-300">
+              Contact
+            </span>
+          </div>
 
-    return (
-        <div className='w-full h-auto bg-gradient-to-b from-black to-gray-800 p-4 sm:h-screen text-white' id="contact">
-            <div className='flex flex-col pt-12 md:pt-0 justify-center max-w-screen-lg mx-auto h-full'>
-                <div className='pb-8 pt-24 md:pt-0'>
-                    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>Contact</p>
-                    <p className='py-6'>Submit the form below to get in touch with me</p>
-                </div>
-                <div className='flex justify-center items-center'>
-                    <form action="https://getform.io/f/e3366a56-fa56-4df9-aa2c-6bd57a562116" method='POST' className='flex flex-col w-full md:w-1/2'>
-                        <input type="text" name="name" placeholder='Enter your name' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' />
-                        <input type="text" name="email" placeholder='Enter your email' className='p-2 bg-transparent my-4 border-2 rounded-md text-white focus:outline-none' />
-                        <textarea rows={6} name="message" placeholder='Enter your message' className='p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' />
-                        <button className='text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300'>Let's talk</button>
-                    </form>
-                </div>
-            </div>
+          <h2 className="text-5xl font-bold text-white">
+            Let's build something together.
+          </h2>
+
+          <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-400">
+            Whether you're looking for a Full Stack Developer, need help scaling
+            an existing SaaS product or want to discuss a new project, I'd love
+            to hear from you.
+          </p>
         </div>
-    )
-}
 
-export default Contact
+        <div className="grid lg:grid-cols-2 gap-12">
+          {/* Left */}
+
+          <div className="space-y-8">
+            <div className="border border-[#32353c] bg-[#1d2027] p-8">
+              <span className="uppercase tracking-[0.2em] text-xs text-[#adc6ff]">
+                Availability
+              </span>
+
+              <h3 className="text-2xl font-semibold text-white mt-3">
+                Open to remote opportunities
+              </h3>
+
+              <p className="mt-4 text-gray-400 leading-7">
+                I'm currently available for full-time remote positions and
+                freelance projects involving SaaS platforms, AI integrations and
+                scalable web applications.
+              </p>
+            </div>
+
+            <div className="space-y-6">
+              <div>
+                <p className="text-xs uppercase tracking-widest text-[#adc6ff]">
+                  Email
+                </p>
+
+                <p className="text-white mt-2">
+                  danielmartinezcabrera@hotmail.com
+                </p>
+              </div>
+
+              <div>
+                <p className="text-xs uppercase tracking-widest text-[#adc6ff]">
+                  Location
+                </p>
+
+                <p className="text-white mt-2">Barranquilla, Colombia</p>
+              </div>
+            </div>
+          </div>
+
+          {/* Right */}
+
+          <div className="border border-[#32353c] bg-[#1d2027] p-8">
+            <form
+              action="https://getform.io/f/e3366a56-fa56-4df9-aa2c-6bd57a562116"
+              method="POST"
+              className="space-y-6"
+            >
+              <input
+                type="text"
+                name="name"
+                placeholder="Your name"
+                className="w-full px-4 py-4 bg-[#10131a] border border-[#32353c] text-white placeholder-gray-500 focus:outline-none focus:border-[#adc6ff] transition-colors"
+              />
+
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email"
+                className="w-full px-4 py-4 bg-[#10131a] border border-[#32353c] text-white placeholder-gray-500 focus:outline-none focus:border-[#adc6ff] transition-colors"
+              />
+
+              <textarea
+                rows={7}
+                name="message"
+                placeholder="Tell me about your project..."
+                className="w-full px-4 py-4 bg-[#10131a] border border-[#32353c] text-white placeholder-gray-500 resize-none focus:outline-none focus:border-[#adc6ff] transition-colors"
+              />
+
+              <button
+                type="submit"
+                className="px-8 py-4 bg-[#adc6ff] text-[#10131a] font-semibold hover:opacity-90 transition-all"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
