@@ -2,12 +2,13 @@ export const technologies = [
     {
         title: "Frontend",
         items: [
+            "HTML",
+            "CSS",
             "TypeScript",
             "JavaScript",
             "React",
             "Next.js",
             "Tailwind CSS",
-            "Material UI",
         ],
     },
     {
@@ -45,13 +46,12 @@ export const technologies = [
             "Stripe",
             "OpenAI",
             "Twilio",
-            "Google Places API",
-            "Meta Ads API",
-            "Google Ads API",
-            "Resend",
-            "SendGrid",
-            "Zapier",
+            "Google APIs",
+            "Meta APIs",
+            "Email Services",
+            "Automation Platforms",
             "VAPI",
-        ],
+            "And many more..."
+        ]
     },
 ];
