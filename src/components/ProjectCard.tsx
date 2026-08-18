@@ -3,9 +3,10 @@ import { Project } from "../types/project";
 
 interface Props {
   project: Project;
+  onViewProject: (project: Project) => void;
 }
 
-const ProjectCard = ({ project }: Props) => {
+const ProjectCard = ({ project, onViewProject }: Props) => {
   const MAX_TECHS = 3;
 
   const visibleTechnologies = project.technologies.slice(0, MAX_TECHS);
@@ -63,17 +64,20 @@ const ProjectCard = ({ project }: Props) => {
         <div className="mt-8 flex items-center justify-between border-t border-[#32353c] pt-5">
           <span className="text-sm text-gray-500">Professional Project</span>
 
-          {project.url && (
-            <a
-              href={project.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2 text-[#adc6ff] transition hover:text-white"
-            >
-              View Project
-              <FaExternalLinkAlt size={13} />{" "}
-            </a>
-          )}
+          <button
+            onClick={() => onViewProject(project)}
+            className="
+              flex
+              items-center
+              gap-2
+              text-[#adc6ff]
+              transition
+              hover:text-white
+            "
+          >
+            View Project
+            <FaExternalLinkAlt size={13} />
+          </button>
         </div>
       </div>
     </article>

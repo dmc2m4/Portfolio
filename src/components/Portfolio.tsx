@@ -7,8 +7,12 @@ import "swiper/css/pagination";
 
 import ProjectCard from "./ProjectCard";
 import { projects } from "../constants/projects";
+import ProjectModal from "./modals/ProjectModal";
+import { useState } from "react";
+import { Project } from "../types/project";
 
 const Portfolio = () => {
+  const [selectedProject, setSelectedProject] = useState<Project | null>(null);
   return (
     <section id="projects" className="bg-[#10131a] py-16">
       <div className="max-w-7xl mx-auto px-6">
@@ -49,11 +53,18 @@ const Portfolio = () => {
         >
           {projects.map((project) => (
             <SwiperSlide key={project.title} className="pb-14">
-              <ProjectCard project={project} />
+              <ProjectCard
+                project={project}
+                onViewProject={setSelectedProject}
+              />
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
+      <ProjectModal
+        project={selectedProject}
+        onClose={() => setSelectedProject(null)}
+      />
     </section>
   );
 };
