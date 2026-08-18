@@ -264,7 +264,34 @@ export const projects: Project[] = [
         category: "Admin Dashboard",
         description:
             "Built a comprehensive administration portal to manage users, organizations, leads, agreements, invitations, referrals, and platform operations. Implemented advanced filtering, interactive maps, analytics dashboards, CSV exports, and internal management tools that streamline daily operations for administrators.",
-        media: [],
+        media: [
+            {
+                type: "image",
+                src: "/images/projects/comarketing/admin/Dashboard.png",
+                alt: "",
+                caption: ""
+            }, {
+                type: "image",
+                src: "/images/projects/comarketing/admin/Users.png",
+                alt: "",
+                caption: ""
+            }, {
+                type: "image",
+                src: "/images/projects/comarketing/admin/User sidebar.png",
+                alt: "",
+                caption: ""
+            }, {
+                type: "image",
+                src: "/images/projects/comarketing/admin/Agreements.png",
+                alt: "",
+                caption: ""
+            }, {
+                type: "image",
+                src: "/images/projects/comarketing/admin/Partner Finder.png",
+                alt: "",
+                caption: ""
+            },
+        ],
         thumbnail: "/images/Thumbnail5.png",
         technologies: [
             "Next.js",
