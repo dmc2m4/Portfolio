@@ -9,7 +9,50 @@ export const projects: Project[] = [
         category: "Artificial Intelligence",
         description:
             "Built an AI-powered platform that discovers qualified business partners using Google Places, Hunter.io, OpenAI, and Vapi. Automated lead enrichment, personalized outreach, AI voice calls, SMS, and email workflows, significantly reducing manual prospecting while increasing lead generation efficiency.",
-        media: [],
+        media: [
+            {
+                type: "image",
+                src: "/images/projects/comarketing/partner-finder/pf-dashboard.png",
+                alt: "Partner Finder dashboard",
+                caption:
+                    "Partner Finder dashboard for managing lead generation and outreach activity.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/partner-finder/partner-finder-first-view.png",
+                alt: "Partner Finder initial screen",
+                caption:
+                    "Initial Partner Finder experience where users can start discovering potential business partners.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/partner-finder/step-1.png",
+                alt: "Partner Finder step 1",
+                caption:
+                    "Step 1: Configure the search criteria to identify relevant business partners and leads.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/partner-finder/step-2.png",
+                alt: "Partner Finder step 2",
+                caption:
+                    "Step 2: Review and refine the search criteria before generating potential leads.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/partner-finder/step-3.png",
+                alt: "Partner Finder step 3",
+                caption:
+                    "Step 3: Review the generated results and continue with the lead discovery workflow.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/partner-finder/detail-sidebar.png",
+                alt: "Partner details sidebar",
+                caption:
+                    "Detailed sidebar displaying information about a selected lead or potential business partner.",
+            },
+        ],
         thumbnail: "/images/Thumbnail1.png",
         technologies: [
             "Next.js",
@@ -73,7 +116,7 @@ export const projects: Project[] = [
         description:
             "Developed the core application of a B2B SaaS platform that helps businesses build strategic partnerships and generate qualified referrals. Designed dashboards for both Comarketing and Earn Mode, enabling users to manage leads, partnerships, invitations, agreements, analytics, and account settings through a responsive and scalable interface.",
         media: [],
-        thumbnail: "images/Thumbnail4.png",
+        thumbnail: "/images/Thumbnail4.png",
         technologies: [
             "Next.js",
             "TypeScript",
@@ -93,7 +136,7 @@ export const projects: Project[] = [
         description:
             "Built a comprehensive administration portal to manage users, organizations, leads, agreements, invitations, referrals, and platform operations. Implemented advanced filtering, interactive maps, analytics dashboards, CSV exports, and internal management tools that streamline daily operations for administrators.",
         media: [],
-        thumbnail: "images/Thumbnail5.png",
+        thumbnail: "/images/Thumbnail5.png",
         technologies: [
             "Next.js",
             "TypeScript",
@@ -113,7 +156,7 @@ export const projects: Project[] = [
         description:
             "Developed a centralized platform that enables businesses to create, manage, and optimize Google Ads and Meta Ads campaigns from a single dashboard. Implemented campaign automation, audience management, lead tracking, analytics, and advertising workflows to simplify campaign creation and improve marketing performance.",
         media: [],
-        thumbnail: "images/Thumbnail6.png",
+        thumbnail: "/images/Thumbnail6.png",
         technologies: [
             "Next.js",
             "TypeScript",
@@ -134,7 +177,7 @@ export const projects: Project[] = [
         description:
             "Built and maintained the public-facing website for Comarketing, including responsive landing pages, pricing sections, lead generation forms, SEO optimization, case studies, and interactive components. Focused on performance, accessibility, and conversion optimization to maximize customer acquisition.",
         media: [],
-        thumbnail: "images/Thumbnail7.png",
+        thumbnail: "/images/Thumbnail7.png",
         technologies: [
             "Next.js",
             "React",
@@ -154,7 +197,7 @@ export const projects: Project[] = [
         description:
             "Developed a course enrollment platform for the Cámara de Comercio de Barranquilla. Built the frontend with React and developed REST APIs using NestJS, enabling users to browse training programs, enroll in courses, complete secure online payments through PayU, and manage their learning experience.",
         media: [],
-        thumbnail: "images/Thumbnail8.png",
+        thumbnail: "/images/Thumbnail8.png",
         technologies: [
             "React",
             "NestJS",
