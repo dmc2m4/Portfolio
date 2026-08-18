@@ -268,28 +268,37 @@ export const projects: Project[] = [
             {
                 type: "image",
                 src: "/images/projects/comarketing/admin/Dashboard.png",
-                alt: "",
-                caption: ""
-            }, {
+                alt: "SaaS admin portal dashboard",
+                caption:
+                    "Centralized administration dashboard providing an overview of platform activity, users, and key operational metrics.",
+            },
+            {
                 type: "image",
                 src: "/images/projects/comarketing/admin/Users.png",
-                alt: "",
-                caption: ""
-            }, {
+                alt: "User management interface",
+                caption:
+                    "User management interface with advanced filtering and tools for searching, reviewing, and managing platform users.",
+            },
+            {
                 type: "image",
                 src: "/images/projects/comarketing/admin/User sidebar.png",
-                alt: "",
-                caption: ""
-            }, {
+                alt: "User details sidebar",
+                caption:
+                    "Detailed user sidebar displaying account information, activity, settings, and administrative controls.",
+            },
+            {
                 type: "image",
                 src: "/images/projects/comarketing/admin/Agreements.png",
-                alt: "",
-                caption: ""
-            }, {
+                alt: "Agreements management interface",
+                caption:
+                    "Centralized interface for reviewing, filtering, and managing partnership agreements across the platform.",
+            },
+            {
                 type: "image",
                 src: "/images/projects/comarketing/admin/Partner Finder.png",
-                alt: "",
-                caption: ""
+                alt: "Partner Finder administration interface",
+                caption:
+                    "Administrative tools for monitoring and managing Partner Finder activity, generated leads, and outreach workflows.",
             },
         ],
         thumbnail: "/images/Thumbnail5.png",
