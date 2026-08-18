@@ -75,7 +75,43 @@ export const projects: Project[] = [
         category: "Artificial Intelligence",
         description:
             "Developed an AI-powered estimator that analyzes home inspection reports and property photos to identify repair items, estimate costs, and generate actionable reports. Integrated AI workflows that transform inspection data into qualified business opportunities through automated partner matching and lead generation.",
-        media: [],
+        media: [
+            {
+                type: "image",
+                src: "/images/projects/comarketing/estimator/estimator-dashboard.png",
+                alt: "AI Property Inspection Estimator dashboard",
+                caption:
+                    "Estimator dashboard where users can manage property repair estimates and access the AI-powered analysis workflow.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/estimator/upload-page.png",
+                alt: "Property inspection report upload page",
+                caption:
+                    "Upload a property inspection report to start the AI-powered analysis and repair cost estimation process.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/estimator/step-2.png",
+                alt: "AI-powered inspection analysis step",
+                caption:
+                    "Review and process the inspection data extracted from the uploaded report to identify potential repair items.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/estimator/step-3.png",
+                alt: "Repair cost estimation results",
+                caption:
+                    "Review AI-generated repair items, estimated costs, and recommendations based on the property inspection analysis.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/estimator/request-service-modal.png",
+                alt: "Request service modal for repair items",
+                caption:
+                    "Connect with relevant service providers directly from the estimate by requesting assistance for selected repair items.",
+            },
+        ],
         thumbnail: "/images/Thumbnail2.png",
         technologies: [
             "Next.js",
