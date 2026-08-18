@@ -135,33 +135,44 @@ export const projects: Project[] = [
             {
                 type: "image",
                 src: "/images/projects/comarketing/Billing/Billing.png",
-                alt: "",
-                caption: ""
-            }, {
+                alt: "SaaS billing management dashboard",
+                caption:
+                    "Centralized billing interface for managing subscriptions, payment information, invoices, and account billing settings.",
+            },
+            {
                 type: "image",
                 src: "/images/projects/comarketing/Billing/Stripe-dashboard.png",
-                alt: "",
-                caption: ""
-            }, {
+                alt: "Stripe billing integration dashboard",
+                caption:
+                    "Stripe-powered billing infrastructure used to manage subscriptions, recurring payments, invoices, and payment processing.",
+            },
+            {
                 type: "image",
                 src: "/images/projects/comarketing/Billing/Pricing.png",
-                alt: "",
-                caption: ""
-            }, {
+                alt: "SaaS pricing and subscription plans",
+                caption:
+                    "Pricing page with flexible subscription plans designed to support different customer needs and platform usage levels.",
+            },
+            {
                 type: "image",
                 src: "/images/projects/comarketing/Billing/Payouts.png",
-                alt: "",
-                caption: ""
-            }, {
+                alt: "Partner payouts management dashboard",
+                caption:
+                    "Payout management interface for tracking earnings, commissions, and payment activity across the platform.",
+            },
+            {
                 type: "image",
                 src: "/images/projects/comarketing/Billing/credit usage.png",
-                alt: "",
-                caption: ""
-            }, {
+                alt: "Credit usage and consumption tracking",
+                caption:
+                    "Credit-based usage system that tracks how customers consume platform credits across different features and services.",
+            },
+            {
                 type: "image",
                 src: "/images/projects/comarketing/Billing/update subscription modal.png",
-                alt: "",
-                caption: ""
+                alt: "Update subscription modal",
+                caption:
+                    "Subscription management flow that allows customers to update their plan and adjust their billing configuration.",
             },
         ],
         thumbnail: "/images/Thumbnail3.png",
