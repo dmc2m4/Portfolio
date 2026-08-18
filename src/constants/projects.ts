@@ -131,7 +131,39 @@ export const projects: Project[] = [
         category: "FinTech",
         description:
             "Designed and implemented a complete billing infrastructure for a B2B SaaS platform using Stripe. Built subscription management, webhook processing, recurring payments, invoices, and a flexible credit-based system that allows customers to purchase and consume platform credits based on feature usage.",
-        media: [],
+        media: [
+            {
+                type: "image",
+                src: "/images/projects/comarketing/Billing/Billing.png",
+                alt: "",
+                caption: ""
+            }, {
+                type: "image",
+                src: "/images/projects/comarketing/Billing/Stripe-dashboard.png",
+                alt: "",
+                caption: ""
+            }, {
+                type: "image",
+                src: "/images/projects/comarketing/Billing/Pricing.png",
+                alt: "",
+                caption: ""
+            }, {
+                type: "image",
+                src: "/images/projects/comarketing/Billing/Payouts.png",
+                alt: "",
+                caption: ""
+            }, {
+                type: "image",
+                src: "/images/projects/comarketing/Billing/credit usage.png",
+                alt: "",
+                caption: ""
+            }, {
+                type: "image",
+                src: "/images/projects/comarketing/Billing/update subscription modal.png",
+                alt: "",
+                caption: ""
+            },
+        ],
         thumbnail: "/images/Thumbnail3.png",
         technologies: [
             "Next.js",
