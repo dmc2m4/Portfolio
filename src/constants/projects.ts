@@ -194,7 +194,57 @@ export const projects: Project[] = [
         category: "SaaS Platform",
         description:
             "Developed the core application of a B2B SaaS platform that helps businesses build strategic partnerships and generate qualified referrals. Designed dashboards for both Comarketing and Earn Mode, enabling users to manage leads, partnerships, invitations, agreements, analytics, and account settings through a responsive and scalable interface.",
-        media: [],
+        media: [
+            {
+                type: "image",
+                src: "/images/projects/comarketing/Dashboard/Earn mode dashboard.png",
+                alt: "Earn Mode dashboard",
+                caption:
+                    "Dashboard designed for users to track earnings, manage partnerships, and monitor referral activity within the platform.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/Dashboard/Comarketing mode dashboard.png",
+                alt: "Comarketing Mode dashboard",
+                caption:
+                    "Central dashboard for managing business partnerships, referrals, leads, and collaboration opportunities in Comarketing Mode.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/Dashboard/Sign-in.png",
+                alt: "Comarketing platform sign-in page",
+                caption:
+                    "Responsive authentication experience providing secure access to the Comarketing platform.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/Dashboard/Branding section.png",
+                alt: "Company branding settings",
+                caption:
+                    "Branding and profile management section that allows businesses to customize their presence and account information within the platform.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/Dashboard/Leads panel.png",
+                alt: "Lead management dashboard",
+                caption:
+                    "Centralized lead management interface for tracking, organizing, and managing qualified referral opportunities.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/Dashboard/Leads view for mobile.png",
+                alt: "Responsive mobile lead management interface",
+                caption:
+                    "Mobile-optimized lead management experience designed to provide access to referral and lead information across different devices.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/Dashboard/Agreements panel.png",
+                alt: "Partnership agreements management panel",
+                caption:
+                    "Agreement management interface for creating, reviewing, and tracking partnership agreements between businesses.",
+            },
+        ],
         thumbnail: "/images/Thumbnail4.png",
         technologies: [
             "Next.js",
