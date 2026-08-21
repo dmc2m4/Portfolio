@@ -320,7 +320,56 @@ export const projects: Project[] = [
         category: "Marketing Technology",
         description:
             "Developed a centralized platform that enables businesses to create, manage, and optimize Google Ads and Meta Ads campaigns from a single dashboard. Implemented campaign automation, audience management, lead tracking, analytics, and advertising workflows to simplify campaign creation and improve marketing performance.",
-        media: [],
+        media: [
+            {
+                type: "video",
+                src: "/images/projects/Witly/Witly dashboard.mp4",
+                caption:
+                    "Overview of the Witly platform, showcasing a centralized workflow for managing digital advertising campaigns and marketing performance.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/Witly/Overview.png",
+                alt: "Witly advertising platform overview dashboard",
+                caption:
+                    "Centralized dashboard providing an overview of campaign performance, advertising activity, and key marketing metrics.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/Witly/Leads.png",
+                alt: "Lead management interface",
+                caption:
+                    "Lead management interface for tracking and organizing leads generated through digital advertising campaigns.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/Witly/Ads.png",
+                alt: "Advertising campaign management interface",
+                caption:
+                    "Campaign management interface for creating, monitoring, and optimizing digital advertising campaigns from a centralized platform.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/Witly/Audiences.png",
+                alt: "Advertising audience management interface",
+                caption:
+                    "Audience management tools for organizing and managing targeting audiences used across digital advertising campaigns.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/Witly/Media Library.png",
+                alt: "Advertising media library",
+                caption:
+                    "Centralized media library for managing creative assets used across advertising campaigns.",
+            },
+            {
+                type: "image",
+                src: "/images/projects/Witly/Account Settings.png",
+                alt: "Account settings interface",
+                caption:
+                    "Account settings and configuration interface for managing platform preferences and connected advertising accounts.",
+            },
+        ],
         thumbnail: "/images/Thumbnail6.png",
         technologies: [
             "Next.js",
