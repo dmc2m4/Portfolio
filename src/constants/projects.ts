@@ -394,36 +394,36 @@ export const projects: Project[] = [
             {
                 type: "video",
                 src: "/images/projects/comarketing/Landing/Comarketing Landing Page.mp4",
-                caption: ""
+                caption: "Overview of the main Comarketing landing page, designed to showcase the platform, its value proposition, and key features."
             },
             {
                 type: "video",
                 src: "/images/projects/comarketing/Landing/Landing mobile view.mp4",
-                caption: ""
+                caption: "Responsive mobile experience of the Comarketing landing page, optimized for a seamless experience across different screen sizes."
             },
             {
                 type: "image",
                 src: "/images/projects/comarketing/Landing/Earn-mode-landing-page.png",
-                alt: "",
-                caption: ""
+                alt: "Comarketing Earn Mode landing page",
+                caption: "Dedicated landing page for Earn Mode, guiding users through the benefits and opportunities of earning through the platform."
             },
             {
                 type: "image",
                 src: "/images/projects/comarketing/Landing/Comarketing-mode-landing-page.png",
-                alt: "",
-                caption: ""
+                alt: "Comarketing Mode landing page",
+                caption: "Dedicated landing page for Comarketing Mode, explaining how businesses can build partnerships and grow through referrals."
             },
             {
                 type: "image",
                 src: "/images/projects/comarketing/Landing/Mobile view.png",
-                alt: "",
-                caption: ""
+                alt: "Comarketing landing page mobile view",
+                caption: "Responsive mobile layout designed to maintain usability, clarity, and conversion across smaller screens."
             },
             {
                 type: "image",
                 src: "/images/projects/comarketing/Landing/Sign-up.png",
-                alt: "",
-                caption: ""
+                alt: "Comarketing sign-up page",
+                caption: "User registration flow designed to provide a simple and intuitive onboarding experience for new users."
             },
         ],
         thumbnail: "/images/Thumbnail7.png",
