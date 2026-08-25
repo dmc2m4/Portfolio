@@ -445,7 +445,26 @@ export const projects: Project[] = [
         category: "Education",
         description:
             "Developed a course enrollment platform for the Cámara de Comercio de Barranquilla. Built the frontend with React and developed REST APIs using NestJS, enabling users to browse training programs, enroll in courses, complete secure online payments through PayU, and manage their learning experience.",
-        media: [],
+        media: [
+            {
+                type: "image",
+                src: "/images/projects/CCBQ/CCBQ-portafolio.png",
+                alt: "",
+                caption: ""
+            },
+            {
+                type: "image",
+                src: "/images/projects/CCBQ/CCBQ-detail.png",
+                alt: "",
+                caption: ""
+            },
+            {
+                type: "image",
+                src: "/images/projects/CCBQ/CCBQ-service.png",
+                alt: "",
+                caption: ""
+            },
+        ],
         thumbnail: "/images/Thumbnail8.png",
         technologies: [
             "React",
