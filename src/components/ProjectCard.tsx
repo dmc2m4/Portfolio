@@ -38,11 +38,11 @@ const ProjectCard = ({ project, onViewProject }: Props) => {
           {project.title}
         </h3>
 
-        <p className="mt-4 text-gray-400 leading-8 h-24">{project.headline}</p>
+        <p className="mt-2 text-gray-400 leading-8 h-24">{project.headline}</p>
 
         {/* Tech */}
 
-        <div className="mt-6 flex flex-wrap gap-2">
+        <div className="flex flex-wrap gap-2">
           {visibleTechnologies.map((tech) => (
             <span
               key={tech}
