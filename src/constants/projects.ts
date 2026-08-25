@@ -390,7 +390,42 @@ export const projects: Project[] = [
         category: "Marketing Website",
         description:
             "Built and maintained the public-facing website for Comarketing, including responsive landing pages, pricing sections, lead generation forms, SEO optimization, case studies, and interactive components. Focused on performance, accessibility, and conversion optimization to maximize customer acquisition.",
-        media: [],
+        media: [
+            {
+                type: "video",
+                src: "/images/projects/comarketing/Landing/Comarketing Landing Page.mp4",
+                caption: ""
+            },
+            {
+                type: "video",
+                src: "/images/projects/comarketing/Landing/Landing mobile view.mp4",
+                caption: ""
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/Landing/Earn-mode-landing-page.png",
+                alt: "",
+                caption: ""
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/Landing/Comarketing-mode-landing-page.png",
+                alt: "",
+                caption: ""
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/Landing/Mobile view.png",
+                alt: "",
+                caption: ""
+            },
+            {
+                type: "image",
+                src: "/images/projects/comarketing/Landing/Sign-up.png",
+                alt: "",
+                caption: ""
+            },
+        ],
         thumbnail: "/images/Thumbnail7.png",
         technologies: [
             "Next.js",
