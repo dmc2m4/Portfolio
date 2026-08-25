@@ -449,20 +449,20 @@ export const projects: Project[] = [
             {
                 type: "image",
                 src: "/images/projects/CCBQ/CCBQ-portafolio.png",
-                alt: "",
-                caption: ""
+                alt: "Cámara de Comercio de Barranquilla services and courses portfolio",
+                caption: "A centralized portfolio where users can explore courses, services, programs, and business resources offered by the Cámara de Comercio de Barranquilla."
             },
             {
                 type: "image",
                 src: "/images/projects/CCBQ/CCBQ-detail.png",
-                alt: "",
-                caption: ""
+                alt: "Course and service detail page",
+                caption: "Detailed view providing users with key information about each course, service, or program, helping them understand its content and access the available resources."
             },
             {
                 type: "image",
                 src: "/images/projects/CCBQ/CCBQ-service.png",
-                alt: "",
-                caption: ""
+                alt: "Cámara de Comercio de Barranquilla service page",
+                caption: "Service discovery experience that helps users find relevant business resources through categories, filters, and different areas of interest."
             },
         ],
         thumbnail: "/images/Thumbnail8.png",
